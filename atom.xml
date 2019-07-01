@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>toydream525</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-07-01T11:43:19.002Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用markdown命令</title>
+    <link href="http://yoursite.com/2019/07/01/q-1/"/>
+    <id>http://yoursite.com/2019/07/01/q-1/</id>
+    <published>2019-07-01T11:42:06.000Z</published>
+    <updated>2019-07-01T11:43:19.002Z</updated>
+    
+    <content type="html"><![CDATA[<p>标题级别**(###)</p><blockquote><h1 id="q"><a href="#q" class="headerlink" title="q"></a>q</h1><h2 id="q-1"><a href="#q-1" class="headerlink" title="q"></a>q</h2><h6 id="9"><a href="#9" class="headerlink" title="9"></a>9</h6></blockquote><p><strong>引用文字</strong>（&gt;)</p><blockquote></blockquote><p><strong>清单</strong></p><blockquote><p>无序列表（*）</p><ul><li>aa</li><li>aa</li><li>aa</li></ul><p>有序列表（1.）</p><ol><li>aa</li><li>aa</li></ol></blockquote><p><strong>任务列表</strong>(- [ ])</p><blockquote><ul><li><input disabled type="checkbox"> </li></ul></blockquote><p><strong>数学表达式</strong>（$$)<br>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} <br>\frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 <br>\frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 <br>\end{vmatrix}<br>$$<br><strong>表</strong>（|表1|表2|)</p><table><thead><tr><th align="left">First Header</th><th align="left">Second Header</th></tr></thead><tbody><tr><td align="left"></td><td align="left"></td></tr></tbody></table><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><td></td><td></td></tr></tbody></table><p><strong>脚注</strong>([ ^1 ]去空格）</p><blockquote><p>wer<a href="zsssss">^1</a></p></blockquote><p><strong>目录</strong>（[toc])</p><p>[TOC]</p><p><strong>链接</strong></p><p><strong>内部链接</strong>(<a href></a>)</p><blockquote><p>123<a href="D:\desktop" target="_blank" rel="noopener">4</a></p></blockquote><p><strong>参考链接</strong>([][])</p><blockquote><p>这是一个<a href="www.baidu.com" title="tb">参考链接</a></p></blockquote><p><strong>网址</strong>（《》）</p><blockquote><p>&lt;<a href="http://www.braid.com&gt;" target="_blank" rel="noopener">www.braid.com&gt;</a></p></blockquote><p><strong>图片</strong></p><p><img src alt></p><p><strong>倾斜</strong>(*_)</p><blockquote><p><em>1</em></p><p><em>1</em></p></blockquote><p><strong>加粗</strong></p><p><del><strong>删除线</strong></del>（~）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;标题级别**(###)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&quot;q&quot;&gt;&lt;a href=&quot;#q&quot; class=&quot;headerlink&quot; title=&quot;q&quot;&gt;&lt;/a&gt;q&lt;/h1&gt;&lt;h2 id=&quot;q-1&quot;&gt;&lt;a href=&quot;#q-1&quot; class=&quot;headerlink
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
