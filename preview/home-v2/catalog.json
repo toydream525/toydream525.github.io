@@ -1,0 +1,61 @@
+[
+  {
+    "id": "sitecam",
+    "name": "SiteCam",
+    "subtitle": "工程水印相机",
+    "category": "实用工具",
+    "tone": "blue",
+    "icon": "camera",
+    "iconImage": "assets/sitecam-icon.webp",
+    "description": "拍摄、水印、按工程归档。让每一次现场记录，都清楚有序。",
+    "platforms": [
+      "Android",
+      "HarmonyOS"
+    ],
+    "status": "持续更新",
+    "note": "鸿蒙原生版已提供安装包，商店审核中。",
+    "cover": "assets/sitecam-cover.webp",
+    "coverAlt": "SiteCam 工程现场拍摄功能示意",
+    "url": "/sitecam/",
+    "action": "了解应用",
+    "source": "https://github.com/toydream525/SiteCam"
+  },
+  {
+    "id": "yuri1st",
+    "name": "yuri1st",
+    "subtitle": "发现喜欢的故事",
+    "category": "内容发现",
+    "tone": "pink",
+    "icon": "flower",
+    "description": "动画、漫画、轻小说与游戏。把感兴趣的百合题材，慢慢发现、好好收藏。",
+    "platforms": [
+      "Android"
+    ],
+    "status": "当前可用",
+    "note": "基于 Bangumi 条目的内容浏览与整理工具。",
+    "cover": "assets/yuri1st-cover.webp",
+    "coverAlt": "yuri1st 内容分类与收藏功能示意",
+    "url": "/yuri1st/",
+    "action": "了解应用",
+    "source": "https://github.com/toydream525/yuri1st"
+  },
+  {
+    "id": "mygo",
+    "name": "迷星牌局",
+    "subtitle": "排练之后，再来一局",
+    "category": "互动体验",
+    "tone": "navy",
+    "icon": "star",
+    "description": "MyGO!!!!! × Ave Mujica 非官方同人纸牌游戏。打开浏览器，进入排练后的轻松时刻。",
+    "platforms": [
+      "Web"
+    ],
+    "status": "即点即玩",
+    "note": "非官方同人作品，无需注册账号。",
+    "cover": "assets/mygo-cover.webp",
+    "coverAlt": "迷星牌局的深蓝色练习室场景",
+    "url": "/mygo/",
+    "action": "开始体验",
+    "source": "https://github.com/toydream525/mygo-demo"
+  }
+]
