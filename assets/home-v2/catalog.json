@@ -11,8 +11,8 @@
     "platforms": ["Windows"],
     "status": "v0.1.0 已发布",
     "note": "Windows 安装版与便携版均可下载。",
-    "cover": "/assets/harness/companion-desktop.png",
-    "coverAlt": "DSH 伴航 Windows 桌面控制台真实首页",
+    "cover": "/assets/home-v2/dsh-companion-cover.webp",
+    "coverAlt": "DSH 伴航罗盘与本地模型工作台艺术图",
     "url": "/harness/",
     "action": "了解应用",
     "source": "https://github.com/toydream525/deepseek-harness-companion"
