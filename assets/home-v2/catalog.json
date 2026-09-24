@@ -1,5 +1,23 @@
 [
   {
+    "id": "dsh-companion",
+    "name": "DSH 伴航",
+    "subtitle": "本地模型与 Harness 控制台",
+    "category": "实用工具",
+    "tone": "blue",
+    "icon": "arrow",
+    "iconImage": "/assets/home-v2/dsh-companion-icon.png",
+    "description": "启动本地模型、整理参数与 API 提供方，顺畅接入 DeepSeek Harness。",
+    "platforms": ["Windows"],
+    "status": "开源",
+    "note": "支持本地与云端提供方，按需要选择模型。",
+    "cover": "/assets/harness/companion-desktop.png",
+    "coverAlt": "DSH 伴航 Windows 桌面控制台真实首页",
+    "url": "/harness/",
+    "action": "了解应用",
+    "source": "https://github.com/toydream525/deepseek-harness-companion"
+  },
+  {
     "id": "sitecam",
     "name": "SiteCam",
     "subtitle": "工程水印相机",

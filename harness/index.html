@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DSH 伴航是 YuriAqua 开发的开源 Windows 桌面工具，帮助你管理本地 GGUF 模型、参数预设和 DeepSeek Harness 连接。">
+  <meta name="description" content="DSH 伴航是 YuriAqua 开发的开源 Windows 桌面工具，帮助你启动本地 GGUF 模型，并管理 DeepSeek Harness 的本地与云端 API 提供方。">
   <meta name="theme-color" content="#f7faff">
   <meta property="og:title" content="DSH 伴航 · 让本地模型顺畅接入 DeepSeek Harness">
   <meta property="og:description" content="在 Windows 上管理本地模型、导入参考配置、试聊并连接 DeepSeek Harness。">
@@ -33,7 +33,7 @@
         <div class="hero-copy">
           <p class="eyebrow">FOR DEEPSEEK HARNESS · WINDOWS</p>
           <h1>让本地模型，<br><span>顺畅接入 DSH。</span></h1>
-          <p class="hero-lead">启动模型、管理参数、验证对话，再连接 DeepSeek Harness。把分散的配置步骤放进一个清楚的 Windows 桌面控制台。</p>
+          <p class="hero-lead">启动本地模型、试聊验证，并管理 DeepSeek Harness 的 API 提供方。常用操作集中在清楚的 Windows 桌面控制台。</p>
           <div class="hero-actions">
             <span class="button button-primary pending" role="status" aria-label="Windows 下载准备发布">Windows 版准备发布 <span aria-hidden="true">↗</span></span>
             <a class="button button-secondary" href="#start">查看配置步骤 <span aria-hidden="true">→</span></a>
@@ -52,7 +52,7 @@
       <div class="container feature-grid">
         <div class="feature"><span class="feature-icon" aria-hidden="true">▣</span><div><h2>原生桌面</h2><p>为 Windows 打造的清晰工作台</p></div></div>
         <div class="feature"><span class="feature-icon" aria-hidden="true">▤</span><div><h2>预设导入导出</h2><p>成套参数可保存、迁移和重绑</p></div></div>
-        <div class="feature"><span class="feature-icon" aria-hidden="true">↗</span><div><h2>DSH 接入</h2><p>把本地 API 连到 Harness</p></div></div>
+        <div class="feature"><span class="feature-icon" aria-hidden="true">↗</span><div><h2>DSH API 管理</h2><p>本地与云端提供方一处整理</p></div></div>
         <div class="feature"><span class="feature-icon" aria-hidden="true">◌</span><div><h2>模型试聊</h2><p>先确认真实响应，再开始工作</p></div></div>
       </div>
     </section>
@@ -77,18 +77,18 @@
         <div class="qwen-copy"><p class="eyebrow">OPTIONAL REFERENCE SETUP</p><h2>从 Qwen 参考方案开始，<br>也能选择其他模型。</h2><p>内置配方记录了原目标电脑上的 Qwen3.8-27B 参考设置。准备好资源后，一键预览并导入；模型或模板不在本机时，应用会要求你重新绑定。通用 GGUF 模型也可以按自己的硬件建立预设。</p><a class="text-link" href="#resources">查看精确资源清单 <span aria-hidden="true">→</span></a></div>
         <div class="recipe-card" aria-label="Qwen 参考配置摘要">
           <div class="recipe-head"><strong>参考配方 · Qwen3.8-27B</strong><span>可选</span></div>
-          <div class="recipe-row"><span>已测模型</span><strong>Huihui / Original GSQ IQ3_S</strong></div>
-          <div class="recipe-row"><span>原机基线档</span><strong>32K · 单并发 · MTP 关闭</strong></div>
+          <div class="recipe-row"><span>模型版本</span><strong>Huihui / Original GSQ IQ3_S</strong></div>
+          <div class="recipe-row"><span>参考档位</span><strong>32K · 单并发 · MTP 关闭</strong></div>
           <div class="recipe-row"><span>回答方式</span><strong>思考档 / Huihui Direct</strong></div>
           <div class="recipe-row"><span>导入方式</span><strong>资源匹配 · 缺项重绑</strong></div>
-          <p>旧机：i7-13700K、RTX 4080 16 GB、64 GB RAM。其他电脑需调整参数并重新验证；写作 IQ4_XS 档位尚未完成本机推理验收。</p>
+          <p>面向 RTX 4080 16 GB 显存、64 GB RAM 的参考方案。其他电脑应按资源调整；写作 IQ4_XS 需自行确认效果。</p>
         </div>
       </div>
       <div class="container resource-detail" id="resources">
         <div class="resource-heading"><h3>复现这套参考配置所需资源</h3><p>只下载要用的文件；无需全精度权重，也无需为预编译 CUDA 版盲装完整 Toolkit。</p></div>
         <div class="resource-list">
-          <div><span class="resource-num">1</span><div><strong>完整推理引擎</strong><p>从 <a href="https://github.com/ggml-org/llama.cpp/releases" target="_blank" rel="noopener noreferrer">llama.cpp 官方发布页 ↗</a>选适合系统和显卡的 Windows 构建，完整解压 EXE 与 DLL。原目标 4080 的已测版本为 <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11149" target="_blank" rel="noopener noreferrer">b11149 Windows x64 CUDA 12 主包及同页 CUDA 12.4 DLLs ↗</a>；这不是所有电脑的通用选择。</p></div></div>
-          <div><span class="resource-num">2</span><div><strong>对应 GGUF 模型</strong><p>已测 32K 档使用 <a href="https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF/tree/main" target="_blank" rel="noopener noreferrer">Huihui GSQ-RCO IQ3_S ↗</a> 和 <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF/tree/main" target="_blank" rel="noopener noreferrer">Original GSQ-RCO IQ3_S ↗</a>，各约 11.77 GB。只准备其中一版也可导入对应档位；写作 IQ4_XS 另需约 14.40 GB，缺失时保持待绑定。</p></div></div>
+          <div><span class="resource-num">1</span><div><strong>完整推理引擎</strong><p>从 <a href="https://github.com/ggml-org/llama.cpp/releases" target="_blank" rel="noopener noreferrer">llama.cpp 官方发布页 ↗</a>选适合系统和显卡的 Windows 构建，完整解压 EXE 与 DLL。原目标 4080 的参考版本为 <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11149" target="_blank" rel="noopener noreferrer">b11149 Windows x64 CUDA 12 主包及同页 CUDA 12.4 DLLs ↗</a>；这不是所有电脑的通用选择。</p></div></div>
+          <div><span class="resource-num">2</span><div><strong>对应 GGUF 模型</strong><p>32K 参考档使用 <a href="https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF/tree/main" target="_blank" rel="noopener noreferrer">Huihui GSQ-RCO IQ3_S ↗</a> 和 <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF/tree/main" target="_blank" rel="noopener noreferrer">Original GSQ-RCO IQ3_S ↗</a>，各约 11.77 GB。只准备其中一版也可导入对应档位；写作 IQ4_XS 另需约 14.40 GB，缺失时保持待绑定。</p></div></div>
           <div><span class="resource-num">3</span><div><strong>固定聊天模板</strong><p>原配方使用 <a href="https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates/tree/855bffc" target="_blank" rel="noopener noreferrer">froggeric v22.5、提交 855bffc ↗</a> 的 <code>chat_template.jinja</code>。请从该固定版本下载并在应用内选择；内置配方会核对文件内容。其他 GGUF 可先用自身内嵌模板。</p></div></div>
           <div><span class="resource-num">+</span><div><strong>只在需要 DSH Agent 时</strong><p>安装 <a href="https://nodejs.org/en/download" target="_blank" rel="noopener noreferrer">Node.js ↗</a> 与 <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener noreferrer">DeepSeek Harness ↗</a>。伴航管理自有 DSH 时要绑定完整本地安装目录及 <code>node.exe</code>；一次临时运行 <code>npx</code> 不等于可绑定的本地安装。</p></div></div>
         </div>
@@ -103,6 +103,7 @@
     <section class="section faq-section" id="questions"><div class="container"><div class="section-heading"><p class="eyebrow">COMMON QUESTIONS</p><h2>常见问题</h2></div><div class="faq-grid">
       <details><summary>DSH 伴航支持哪些模型？</summary><p>支持可由所选 llama.cpp 引擎加载、元数据完整的 GGUF 模型。内置 Qwen 配方是可选参考；其他模型应按自己的架构、量化与电脑资源设置参数，并实际验证聊天和工具能力。</p></details>
       <details><summary>我必须有 RTX 4080 才能用吗？</summary><p>不用。应用可选择 CPU 或适配的 GPU 引擎；27B 与 32K 档位需要较多资源，原机结果只适用于 i7-13700K、RTX 4080 16 GB、64 GB RAM。配置较低时可从更小的 GGUF 和较短上下文开始。</p></details>
+      <details><summary>能整理 Harness 的 API 提供方吗？</summary><p>可以管理本地及云端提供方的地址、协议、密钥和模型列表，也能设置新会话默认模型。密钥在应用中单独保存；连接 DSH 时需完成认证。</p></details>
       <details><summary>需要 DeepSeek 的 API Key 吗？</summary><p>本地模型试聊不需要云端 DeepSeek API Key。要使用 DSH Agent，仍需安装并认证 DSH，再把本地模型 API 设为提供方。云端模型是另一项选择，可能产生费用。</p></details>
       <details><summary>导入配方会自动下载或启动吗？</summary><p>不会。导入会预览资源并保存已能绑定的预设；缺失模型或模板会列明待绑定项，也不会覆盖同名自定义参数。之后由你在工作台选择并启动。</p></details>
       <details><summary>启动后怎样确认真的可用？</summary><p>等待应用报告 API 就绪，再用试聊确认中文回答。要使用 DSH，另做提供方连接测试，并在新会话里验证真实工具任务。只看到模型文件或进程存在，还不能算完成。</p></details>
