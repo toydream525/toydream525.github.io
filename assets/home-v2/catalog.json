@@ -25,13 +25,13 @@
     "tone": "blue",
     "icon": "camera",
     "iconImage": "/assets/home-v2/sitecam-icon.webp",
-    "description": "拍摄、水印、按工程归档。0.3.4 增加定位引导与大致位置支持，修复鸿蒙水印弹层遮挡。",
+    "description": "拍照水印、工程整理与资料导出。断网仍可记录卫星坐标；纯离线版手填具体地点，联网版可自动查询。",
     "platforms": [
       "Android",
       "HarmonyOS"
     ],
-    "status": "v0.3.4",
-    "note": "鸿蒙原生 HAP 未签名，安装前需自行签名。",
+    "status": "0.3.5 已发布",
+    "note": "Android 与鸿蒙联网原版断网时仍可拍摄和记录卫星位置；另有鸿蒙纯离线版。",
     "cover": "/assets/home-v2/sitecam-cover.webp",
     "coverAlt": "SiteCam 工程现场拍摄功能示意",
     "url": "/sitecam/",
