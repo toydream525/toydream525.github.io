@@ -25,13 +25,13 @@
     "tone": "blue",
     "icon": "camera",
     "iconImage": "/assets/home-v2/sitecam-icon.webp",
-    "description": "拍摄、水印、按工程归档。让每一次现场记录，都清楚有序。",
+    "description": "拍摄、水印、按工程归档。0.3.4 增加定位引导与大致位置支持，修复鸿蒙水印弹层遮挡。",
     "platforms": [
       "Android",
       "HarmonyOS"
     ],
-    "status": "持续更新",
-    "note": "鸿蒙原生版已提供安装包，商店审核中。",
+    "status": "v0.3.4",
+    "note": "鸿蒙原生 HAP 未签名，安装前需自行签名。",
     "cover": "/assets/home-v2/sitecam-cover.webp",
     "coverAlt": "SiteCam 工程现场拍摄功能示意",
     "url": "/sitecam/",
