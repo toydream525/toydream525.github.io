@@ -25,13 +25,13 @@
     "tone": "blue",
     "icon": "camera",
     "iconImage": "/assets/home-v2/sitecam-icon.webp",
-    "description": "拍照水印、工程整理与资料导出。断网仍可记录卫星坐标；纯离线版手填具体地点，联网版可自动查询。",
+    "description": "拍照水印、工程整理与资料导出。",
     "platforms": [
       "Android",
       "HarmonyOS"
     ],
     "status": "0.3.5 已发布",
-    "note": "Android 与鸿蒙联网原版断网时仍可拍摄和记录卫星位置；另有鸿蒙纯离线版。",
+    "note": "鸿蒙版统一支持地址与坐标记录，地址不可用时可手动填写。",
     "cover": "/assets/home-v2/sitecam-cover.webp",
     "coverAlt": "SiteCam 工程现场拍摄功能示意",
     "url": "/sitecam/",
