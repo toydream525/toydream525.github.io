@@ -30,8 +30,8 @@
       "Android",
       "HarmonyOS"
     ],
-    "status": "0.3.5 已发布",
-    "note": "鸿蒙版统一支持地址与坐标记录，地址不可用时可手动填写。",
+    "status": "0.3.6 已发布",
+    "note": "地址获取更稳定，刷新按钮更简洁。鸿蒙版已上架华为应用市场。",
     "cover": "/assets/home-v2/sitecam-cover.webp",
     "coverAlt": "SiteCam 工程现场拍摄功能示意",
     "url": "/sitecam/",
