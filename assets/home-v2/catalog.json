@@ -30,8 +30,8 @@
       "Android",
       "HarmonyOS"
     ],
-    "status": "0.3.6 已发布",
-    "note": "地址获取更稳定，刷新按钮更简洁。鸿蒙版已上架华为应用市场。",
+    "status": "0.4.0 大版本已发布",
+    "note": "大版本更新：全形态适配与体验升级。鸿蒙版已正式上架华为应用市场，支持商店一键安装。",
     "cover": "/assets/home-v2/sitecam-cover.webp",
     "coverAlt": "SiteCam 工程现场拍摄功能示意",
     "url": "/sitecam/",
